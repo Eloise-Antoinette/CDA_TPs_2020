@@ -1,8 +1,8 @@
 package javaGit;
 
-public class javaMain {
-	
-	public static void main(String[] args) {
-	}
+public class TP1 {
 
+	public static void main(String[] args) {
+
+	}
 }
