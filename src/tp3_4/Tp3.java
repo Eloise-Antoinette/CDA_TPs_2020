@@ -7,6 +7,8 @@ public class Tp3 {
 		System.out.println("Veuillez saisir la note");
 
 		int note = Clavier.lireInt();
+		
+		/* le clavier */
 
 		if (note >= 10) {
 		
