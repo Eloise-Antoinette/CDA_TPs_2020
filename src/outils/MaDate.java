@@ -27,8 +27,6 @@ public class MaDate {
 
 		String date = Clavier.lireString();
 
-		System.out.println("");
-
 		Date date1;
 
 		;

@@ -10,11 +10,10 @@ public class tp4 {
 		MaDate.maintenant();
 		MaDate.saisirDate();
 		moyenne();
-		// TODO Auto-generated method stub
-		/*int i, n, som;
-		som = 0;
-		i = 0;
-*/
+
+		/*
+		 * int i, n, som; som = 0; i = 0;
+		 */
 		/*
 		 * Original
 		 * 
@@ -33,23 +32,29 @@ public class tp4 {
 		 * System.out.println("Somme = " + som);
 		 */
 
-		  
-		 
 	}
-	
+
 	public static void moyenne() {
-		  //Exercice moyenne 
-		  
-		  System.out.println("entrez note 1"); int note1 = Clavier.lireInt();
-		  System.out.println("entrez note 2"); int note2 = Clavier.lireInt();
-		  System.out.println("entrez note 3"); int note3 = Clavier.lireInt();
-		  System.out.println("entrez note 4"); int note4 = Clavier.lireInt();
-		  
-		  int moy = (note1 + note2 + note3 + note4)/4; if(moy >= 10) {
-		  System.out.println("vous êtes admis"); } else if (moy >=8) {
-		  System.out.println("vous êtes admissible"); } else {
-		  System.out.println("recalé"); }
-		
+		// Exercice moyenne
+
+		System.out.println("entrez note 1");
+		int note1 = Clavier.lireInt();
+		System.out.println("entrez note 2");
+		int note2 = Clavier.lireInt();
+		System.out.println("entrez note 3");
+		int note3 = Clavier.lireInt();
+		System.out.println("entrez note 4");
+		int note4 = Clavier.lireInt();
+
+		int moy = (note1 + note2 + note3 + note4) / 4;
+		if (moy >= 10) {
+			System.out.println("vous êtes admis");
+		} else if (moy >= 8) {
+			System.out.println("vous êtes admissible");
+		} else {
+			System.out.println("recalé");
+		}
+
 	}
 
 }

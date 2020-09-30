@@ -34,7 +34,7 @@ public class PFPCMain {
 		String computerRound = receiveComputerRound(pfc);
 		
 		compareResults(playerRound, computerRound);
-		giveResults();
+		givesResults();
 	}
 
 	/**
@@ -89,6 +89,8 @@ public class PFPCMain {
 	 * @param player, computer
 	 */
 	public static void compareResults(String player, String computer) {
+		
+				
 		if (player.equals(computer)) {
 			equality();
 		} else {
@@ -163,7 +165,7 @@ public class PFPCMain {
 	 * 
 	 * @author ELO.MOREAU
 	 */
-	public static void giveResults() {
+	public static void givesResults() {
 		
 		if(scorePlayer < 2) {
 			System.out.println("Votre score : " + scorePlayer + " point");
