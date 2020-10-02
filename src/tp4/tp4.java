@@ -6,14 +6,15 @@ import outils.MaDate;
 public class tp4 {
 
 	public static void main(String[] args) {
-		MaDate.aujourdhui();
+		/*MaDate.aujourdhui();
 		MaDate.maintenant();
 		MaDate.saisirDate();
-		moyenne();
+		moyenne();*/
 
-		/*
-		 * int i, n, som; som = 0; i = 0;
-		 */
+		int i, n, som;
+		som = 0;
+		i = 0;
+
 		/*
 		 * Original
 		 * 
@@ -21,10 +22,16 @@ public class tp4 {
 		 * Clavier.lireInt(); som += n; } System.out.println("Somme = " + som);
 		 */
 
-		/*
-		 * Avec le while while( i <4) { System.out.println(i+"-Donnez un entier"); n =
-		 * Clavier.lireInt(); som += n; i++; } System.out.println("Somme = " + som);
-		 */
+		// Avec le while
+		while (i < 4) {
+			System.out.println(i + "-Donnez un entier");
+			n = Clavier.lireInt();
+
+			som += n;
+			i++;
+
+		}
+		System.out.println("Somme = " + som);
 
 		/*
 		 * Avec le do while do { System.out.println(i+"-Donnez un entier"); n =

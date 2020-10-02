@@ -14,6 +14,10 @@ public class MaDate {
 		System.out.println(ajdString);
 
 	}
+	
+	public static Date getTodayDate() {
+		return new Date();
+	}
 
 	public static void maintenant() {
 		Date ajd = new Date();
@@ -47,6 +51,17 @@ public class MaDate {
 			String myDate = dateMonFormat.format(date1);
 			System.out.println("myDate" + myDate);
 		}
+	}
+	
+	
+	
+	public static boolean isBisextile(int year) {
+		boolean isBisextile = false;
+		if(year%400 == 0 || year%4 == 0 && year%100 != 0) {
+			isBisextile = true;
+		}
+		
+		return isBisextile;
 	}
 
 }

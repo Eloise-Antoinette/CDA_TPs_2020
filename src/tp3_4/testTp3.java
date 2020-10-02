@@ -16,7 +16,7 @@ public class testTp3 extends Tp3 {
 	
 	@Test
 	public void testCompareValues() {
-		assertEquals("erreur de calcul", 1, compareValues(2,5,8,12));
+		assertEquals(1, compareValues(2,5,8,12));
 		assertEquals(22, compareValues(22,4,-8,2));
 		assertEquals(15, compareValues(2,5,-14,15));		
 		assertEquals(6, compareValues(6,5,-2,4));
